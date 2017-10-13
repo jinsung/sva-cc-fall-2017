@@ -29,7 +29,7 @@ function draw() {
 
     var xDiff = targetX - circleX;
     var yDiff = targetY - circleY;
-    var speed = 1.3;
+    var speed = 0.2;
 
     circleX = circleX + xDiff * speed;
     circleY = circleY + yDiff * speed;

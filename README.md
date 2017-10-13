@@ -72,12 +72,12 @@
   * [Random Numbers](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/07_random/index.html)
   * [Easing](https://jinsung.github.io/sva-cc-fall-2017/week03/examples/08_easing/index.html)
   * Advanced animation examples [01](http://thesystemis.com/projects/mesa-di-voce/) | [02](https://vimeo.com/150728260)
-* Assignment : Generative art #1
-   * Draw shapes
-   * No background
-   * Time or interactive based
-   * Use different colors for stroke and fill
-   * Use If statement.
+* Assignment: Generative art #1
+  * Draw shapes
+  * Make time or interactive based animation
+  * Play with colors
+  * Use If statement.
+  * Use For loop for bonus points!
 
 ### Week 4 -- Conditionals / Loop
 * Topics
@@ -96,69 +96,64 @@
 ### Week 5 -- Functions - Assignment 1 due date
 * Assignment review
 * Topics
-  * Define and Calling Functions
-  * Argument
-  * Math
-* Examples
+  * Define and Calling a Function
+  * [Bouncing ball with Function](https://jinsung.github.io/sva-cc-fall-2017/week05/examples/02_bouncing_ball_w_function/index.html)
+  * [Draw Target](https://jinsung.github.io/sva-cc-fall-2017/week05/examples/04_target_w_function/index.html)
+  * [Distance Function](https://jinsung.github.io/sva-cc-fall-2017/week05/examples/05_0_distance/index.html)
+  * [What is The Object?](https://jinsung.github.io/sva-cc-fall-2017/week05/examples/05_2_arrow/index.html)
 * Assignment : Generative art #2
   * Animate elements base on interaction
   * Use for loop
-  * Make and use your Functions
+  * Use Functions
+  * Create Objects
 
-### Week 6 -- Math - Circular animation
+### Week 6 -- Object / 2D transformation
 * Topics
-  * Trigonometri
-  * Noise
+  * 2D Transformation
+  * Object Oriented Programming
+* Examples
+  * [Push and pop matrix](https://jinsung.github.io/sva-cc-fall-2017/week12/examples/03_push_pop/)
+
+### Week 7 -- OOP / Array
+* Topics
+  * Object - Person, Car, Moving Circle, or Robot
+  * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
+  * Array
 * Examples
 
-### Week 7 -- Physics
+### Week 8 -- Vector / Force / Particle System
+* Topics
+  * Particle System
+  * Vector
+  * Force
+* Examples
+
+### Week 9 -- Physics
 * Topics
   * [Gravity](https://jinsung.github.io/sva-cc-fall-2017/week07/examples/01_gravity/index.html)
   * Doodle jump
 * Examples
 
-### Week 7 -- Object / Vector / Force
+### Week 10 -- Flocking / Noise -- Assignment 2 due date
+* Assignment review
 * Topics
-  * Object
-  * Object - Person, Car, Moving Circle, or Robot
-  * Wrapped Function (Class) - Prototype, Cookie cutter, or Blue print.
-  * OOP - New operator
-* Examples
-
-### Week 8 -- Arrays / Particle System
-* Topics
-  * What is an array?
-  * Particle System
-* Examples
-
-### Week 9 -- Image / Flocking
-* Topics
-  * Display Image
   * Particle interaction
   * Flocking movement
-  * Pixel manipulation
+  * Noise
 * Examples
 
-### Week 10 -- Vector Math / Asteroid -- Assignment 2 due date
-* Assignment review
+### Week 11 -- Asteroid
 * Topics
   * [Asteroid Game](https://jinsung.github.io/sva-cc-fall-2017/week10/examples/01/)
 
+### Week 12 -- Asteroid 2 / External Image
 
-### Week 11 -- Data / Debugging -- Final Project Proposals
+### Week 13 -- Inverse Kinematics / Data
 * Topics
-  * Debugging tools
-
-### Week 12 -- Network API / Coord System
-* Topics
-  * [Lerp](https://jinsung.github.io/sva-cc-fall-2017/week12/examples/01_lerp/index.html)
-  * Data - JSON
+  * Inverse Kinematics
   * [Get data from Internet](https://jinsung.github.io/sva-cc-fall-2017/week12/examples/02_weather/index.html)
-  * [Push and pop matrix](https://jinsung.github.io/sva-cc-fall-2017/week12/examples/03_push_pop/)
 
-### Week 13 -- Individual Checkup
-
-### Week 14 -- Final Project Presentation
+### Week 14
 
 ### Week 15 -- Final Project Presentation
 

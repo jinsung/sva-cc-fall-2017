@@ -5,13 +5,13 @@ function setup() {
 var myhue = 0;
 
 function draw() {
-  colorMode(HSB);
+  colorMode(HSL);
   var xPos = random ( 20 ) -10;
   var yPos = random ( 20 ) -10;
   var randomSize = 5 +random(50);
   myhue += 1;
   stroke(255, 50);
-  fill(myhue, 30, 50);
+  fill(myhue, 80, 70);
   strokeWeight(1);
 
   if (myhue > 300) {
@@ -28,7 +28,7 @@ function draw() {
   }
 
   if(keyIsPressed) {
-    background (0);
+    background (255);
   }
 
   /* noStroke();
