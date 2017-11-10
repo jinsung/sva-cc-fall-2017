@@ -12,7 +12,7 @@ function ParticleSystem() {
       this.particles.push(p);
       var randomForce = createVector((Math.random() - 0.5), (Math.random() - 0.5));
       randomForce.mult(2.0);
-      p.applyForce(randomForce);
+      //p.applyForce(randomForce);
     }
 
   }
@@ -24,9 +24,9 @@ function ParticleSystem() {
       for (var j = this.particles.length-1; j > i; j--) {
         var jP = this.particles[j];
         var distance = iP.pos.dist(jP.pos);
-        if (distance < (iP.size + jP.size)/2+1) {
-          var f1 = iP.pos.copy().sub(jP.pos).mult(0.003);
-          var f2 = iP.pos.copy().sub(jP.pos).mult(-0.003);
+        if (distance < (iP.size + jP.size)) {
+          var f1 = iP.pos.copy().sub(jP.pos).mult(2);
+          var f2 = iP.pos.copy().sub(jP.pos).mult(-2);
           iP.applyForce(f1);
           jP.applyForce(f2);
           //iP.applyForce(f.mult(-1));
@@ -51,11 +51,11 @@ function ParticleSystem() {
       } else {
         //p.applyForce(gravity);
         var pd = pixelDensity();
-        var pixelIndex = (((width * pd) * (Math.floor(p.pos.y) * pd)) + (Math.floor(p.pos.x) * pd) ) * 4;
+        var pixelIndex = (((width * pd) * (Math.ceil(p.pos.y) * pd)) + (Math.ceil(p.pos.x) * pd) ) * 4;
         var c = pixels[pixelIndex];
         if (!c) {
-          console.log("why?: " + pixelIndex + " length " + pixels.length);
-          console.log("p.pos.y: " + p.pos.y + " length " + pixels.length);
+          console.log("why?: " c + " " + pixelIndex + " length " + pixels.length);
+          console.log("p.pos.y: " + Math.floor(p.pos.y) + " length " + pixels.length);
         }
         p.update(c);
         p.draw();
