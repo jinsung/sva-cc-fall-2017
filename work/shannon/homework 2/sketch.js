@@ -12,6 +12,7 @@ function setup() {
 }
 
 function draw(){
+  background(0);
 
   if(mouseIsPressed){
   ps.addParticle(mouseX, mouseY, 10)
@@ -23,7 +24,7 @@ function draw(){
   };
 
   if (keyIsPressed){
-    background(255);
+    background(0);
   };
 
 }

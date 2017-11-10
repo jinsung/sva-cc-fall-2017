@@ -1,14 +1,14 @@
 
-function Particle(loc, size){
+function Particle(){
   this.setup = function(pos){
     this.pos = pos.copy();
-    this.vel = createVector(0,0);
+    this.vel = createVector(0,-3.5);
     this.acc = createVector(0,0);
     this.age = 0;
-    this.size = 10;
-    this.lifeSpan = 100;
+    this.size = 5;
+    this.lifeSpan = 1000;
     this.isDead = false;
-    this.mass = Math.random()+0.1 *10.0;
+    this.mass = Math.random()+0.5 * 5.0;
     this.damping = 1.00;
   }
 
@@ -33,12 +33,12 @@ function Particle(loc, size){
 
   this.draw = function (index){
     var hueRand = random(255);
-    var randomB = random(50);
+    var randomB = random(255);
 
     var xPos = random(50);
     var yPos = random(50);
 
-    fill(hueRand, randomB, 100);
-    ellipse(mouseX+xPos, mouseY+yPos, this.size, this.size);
+    fill(hueRand, randomB, 255, (1 - this.age/this.lifeSpan) * 255);
+    ellipse(this.pos.x, this.pos.y, this.size, this.size);
   }
 }
