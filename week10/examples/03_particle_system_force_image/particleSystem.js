@@ -54,7 +54,6 @@ function ParticleSystem() {
         var pixelIndex = (((width * pd) * (Math.ceil(p.pos.y) * pd)) + (Math.ceil(p.pos.x) * pd) ) * 4;
         var c = pixels[pixelIndex];
         if (!c) {
-          console.log("why?: " c + " " + pixelIndex + " length " + pixels.length);
           console.log("p.pos.y: " + Math.floor(p.pos.y) + " length " + pixels.length);
         }
         p.update(c);
