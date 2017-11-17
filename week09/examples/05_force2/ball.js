@@ -1,10 +1,17 @@
-function Ball(x, y, size, speedX, speedY) {
-  this.location = createVector(x,y);
-  this.velocity = createVector(speedX, speedY);
+function Ball(loc, size) {
+  this.location = loc;
+  this.velocity = createVector(0, 0);
+  this.acceleration = createVector(0.0, 0.0);
   this.size = size;
 
   this.update = function() {
+    this.velocity.add(this.acceleration);
     this.location.add(this.velocity);
+    this.acceleration.mult();
+  }
+
+  this.applyForce = function (force) {
+    this.acceleration.add(force);
   }
 
   this.bounce = function (width, height) {
@@ -20,8 +27,7 @@ function Ball(x, y, size, speedX, speedY) {
       if (this.location.y > height) {
         this.location.y = height;
       } else {
-        this.location.y
-         = 0;
+        this.location.y = 0;
       }
       this.velocity.y *= -1;
     }
