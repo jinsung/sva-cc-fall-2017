@@ -161,13 +161,16 @@
   * [3](https://jinsung.github.io/sva-cc-fall-2017/week10/examples/03_particle_system_force_image/index.html)
 
 
-### Week 11 -- Particle System / Object Interaction
+### Week 11 -- Field Trip
+
+### Week 12 -- Image / Object Interaction
 * Topics
-  * Noise
+  * Running Web Server
+  * Loading an image
+  * Reading pixel information.
+  * Particle + Image
 
-### Week 12 -- Doodle Jump
-
-### Week 13 -- Doodle Jump 2
+### Week 13 
 
 ### Week 14 -- Shooting the arrow
 
