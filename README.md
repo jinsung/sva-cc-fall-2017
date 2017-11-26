@@ -165,12 +165,18 @@
 
 ### Week 12 -- Image / Object Interaction
 * Topics
-  * Running Web Server
+  * Yugo Nakamura
+    * [JamPack](https://www.youtube.com/watch?v=dNT-NcCIPtA)
+    * [DotClock](https://www.youtube.com/watch?v=u8pQ7gY44mM)
+    * [Border](https://www.youtube.com/watch?v=fu3jtG0SwU8)
+    * [Kokuyo](http://tha.jp/8434)
+    * [Cornelius](http://tha.jp/6384)
+  * Running a Local Web Server.
   * Loading an image
   * Reading pixel information.
   * Particle + Image
 
-### Week 13 
+### Week 13
 
 ### Week 14 -- Shooting the arrow
 
