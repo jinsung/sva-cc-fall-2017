@@ -1,9 +1,11 @@
-function Ball(x, y, size, speedX, speedY) {
+function Ball(x, y, size) {
   this.location = createVector(x,y);
-  this.velocity = createVector(speedX, speedY);
+  this.velocity = createVector(0, 0);
+  this.acceleration = createVector(0.01, 0.03);
   this.size = size;
 
   this.update = function() {
+    this.velocity.add(this.acceleration);
     this.location.add(this.velocity);
   }
 
@@ -20,8 +22,7 @@ function Ball(x, y, size, speedX, speedY) {
       if (this.location.y > height) {
         this.location.y = height;
       } else {
-        this.location.y
-         = 0;
+        this.location.y = 0;
       }
       this.velocity.y *= -1;
     }

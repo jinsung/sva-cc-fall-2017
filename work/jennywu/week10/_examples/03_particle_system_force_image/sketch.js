@@ -19,8 +19,7 @@ function draw() {
   loadPixels();
   var myPixels = pixels;
   if (mouseIsPressed) {
-    //console.log("mouse pressed");
-    particleSystem.addParticle(mouseX, mouseY, 1);
+    particleSystem.addParticle(mouseX, mouseY, 10);
   }
   background(100);
   particleSystem.draw(myPixels);

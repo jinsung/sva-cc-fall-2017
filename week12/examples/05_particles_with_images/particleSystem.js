@@ -13,7 +13,7 @@ function ParticleSystem() {
       var randomForce = createVector((Math.random() - 0.5), (Math.random() - 0.5));
       randomForce.mult(2.0);
       p.setup(createVector(x + randomForce.x, y + randomForce.y));
-      //p.applyForce(randomForce);
+      p.applyForce(randomForce);
     }
 
   }
@@ -25,7 +25,7 @@ function ParticleSystem() {
       for (var j = this.particles.length-1; j > i; j--) {
         var jP = this.particles[j];
         var distance = iP.pos.dist(jP.pos);
-        if (distance < (iP.size + jP.size) * 0.98) {
+        if (distance < (iP.size + jP.size) * 0.55) {
           var f1 = iP.pos.copy().sub(jP.pos).mult(0.01);
           var f2 = iP.pos.copy().sub(jP.pos).mult(-0.01);
           iP.applyForce(f1);

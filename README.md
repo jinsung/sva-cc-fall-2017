@@ -161,13 +161,22 @@
   * [3](https://jinsung.github.io/sva-cc-fall-2017/week10/examples/03_particle_system_force_image/index.html)
 
 
-### Week 11 -- Particle System / Object Interaction
+### Week 11 -- Field Trip
+
+### Week 12 -- Image / Object Interaction
 * Topics
-  * Noise
+  * Yugo Nakamura
+    * [JamPack](https://www.youtube.com/watch?v=dNT-NcCIPtA)
+    * [DotClock](https://www.youtube.com/watch?v=u8pQ7gY44mM)
+    * [Border](https://www.youtube.com/watch?v=fu3jtG0SwU8)
+    * [Kokuyo](http://tha.jp/8434)
+    * [Cornelius](http://tha.jp/6384)
+  * Running a Local Web Server.
+  * Loading an image
+  * Reading pixel information.
+  * Particle + Image
 
-### Week 12 -- Doodle Jump
-
-### Week 13 -- Doodle Jump 2
+### Week 13
 
 ### Week 14 -- Shooting the arrow
 
