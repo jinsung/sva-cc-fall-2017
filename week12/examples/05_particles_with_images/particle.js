@@ -33,7 +33,7 @@ function Particle() {
     if (!isNaN(size)) {
       if (!this.isAboutToDead) {
         this.color += (size - this.color) * 0.1;
-        var targetSize = 3 + (size/255) * 3;
+        var targetSize = 4 + (size/255) * 4;
         this.size += (targetSize - this.size) * 0.1;
       } else {
         if (this.size <= 0){
