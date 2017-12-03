@@ -1,31 +1,26 @@
+var myImage;
 var particleSystem;
-var img;
 
 function preload() {
-  img = loadImage("assets/rose.png");
+  myImage = loadImage("assets/rose.jpg");
 }
 
 function setup() {
-  createCanvas( 500, 333 );
-  noStroke();
-
+  createCanvas(500, 500);
   particleSystem = new ParticleSystem();
   particleSystem.setup();
+  noStroke();
 }
 
 function draw() {
-
-  image(img, 0, 0)
+  background(200);
+  image(myImage, 0, 0, width, height);
   loadPixels();
   var myPixels = pixels;
+
   if (mouseIsPressed) {
-    particleSystem.addParticle(mouseX, mouseY, 10);
+    particleSystem.addParticle(mouseX, mouseY, 1);
   }
   background(100);
   particleSystem.draw(myPixels);
-
-}
-
-function mousePressed() {
-  //particleSystem.addParticle(mouseX, mouseY, 10);
 }

@@ -6,7 +6,7 @@ function Particle() {
     this.age = 0;
     this.size = 1;
     this.color = 255;
-    this.lifeSpan = 2000;
+    this.lifeSpan = 400;
     this.isDead = false;
     this.isAboutToDead = false;
     this.mass = Math.random() + 0.1 * 10.0;
@@ -23,7 +23,7 @@ function Particle() {
     if (this.age > this.lifeSpan ||
         (this.pos.x < 0 || this.pos.x > width) ||
         (this.pos.y < 0 || this.pos.y > height) ) {
-      //this.isDead = true;
+//      this.isDead = true;
       this.isAboutToDead = true;
     }
     this.vel.add(this.acc);
@@ -33,7 +33,7 @@ function Particle() {
     if (!isNaN(size)) {
       if (!this.isAboutToDead) {
         this.color += (size - this.color) * 0.1;
-        var targetSize = 3 + (size/255) * 3;
+        var targetSize = 3 + (size/255) * 5;
         this.size += (targetSize - this.size) * 0.1;
       } else {
         if (this.size <= 0){
