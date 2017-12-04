@@ -176,11 +176,9 @@
   * Reading pixel information.
   * Particle + Image
 
-### Week 13
+### Week 13 -- Shooting the arrow
 
-### Week 14 -- Shooting the arrow
-
-### Week 15 -- Final Project Presentation
+### Week 14 -- Final Project Presentation
 
 ## Students with Disabilities
 
