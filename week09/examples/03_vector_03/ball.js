@@ -1,11 +1,9 @@
-function Ball(loc, size) {
-  this.location = loc
+function Ball(x, y, size, speedX, speedY) {
+  this.location = createVector(x,y);
+  this.velocity = createVector(speedX, speedY);
   this.size = size;
-  this.velocity = createVector(0, 0);
-  this.acceleration = createVector(0.01, 0.03);
 
   this.update = function() {
-    this.velocity.add(this.acceleration);
     this.location.add(this.velocity);
   }
 
