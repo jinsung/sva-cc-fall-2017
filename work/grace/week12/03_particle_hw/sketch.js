@@ -12,12 +12,14 @@ function setup() {
   particleSystem = new ParticleSystem();
   particleSystem.setup();
   noStroke();
+
 }
 
 function draw() {
   background(200);
   image(myFreakyImage, 0, 0, width, height);
   loadPixels();
+
   var myFunnyPixels = pixels;
 
   if(mouseIsPressed) {

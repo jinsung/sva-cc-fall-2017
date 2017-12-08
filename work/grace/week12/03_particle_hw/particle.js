@@ -4,10 +4,10 @@ function Particle() {
     this.vel = createVector(0,0);
     this.acc = createVector(0,0);
     this.age = 0;
-    this.size = 0;
+
     this.mass = 1;
     this.damping = 0.98; //smaller amount slower, larger faster
-    this.color = 0;
+
   }
 
   this.applyForce = function (force) {
@@ -21,28 +21,22 @@ function Particle() {
     this.acc.mult(0);
     this.vel.mult(this.damping);
     this.color = color;
-  }
+    this.size = color/20;
 
-  this.update = function (size) {
-    this.vel.add(this.acc);
-    this.pos.add(this.vel);
-    this.acc.mult(0);
-    this.vel.mult(this.damping);
-    this.size = size;
   }
 
   this.draw = function () {
     if (isNaN(this.color)){
       this.color =0;
     }
-
+    if (this.color>100){
+      ellipse(this.pos.x, this.pos.y, this.size, this.size);
+    } else {
+      rect(this.pos.x, this.pos.y, this.size, this.size);
+    }
 
     fill(this.color);
-    ellipse(this.pos.x, this.pos.y, this.size, this.size);
 
-    if (isNaN(this.size)){
-      this.size =0;
-    }
 
 
   }

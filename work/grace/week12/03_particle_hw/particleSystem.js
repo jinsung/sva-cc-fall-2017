@@ -4,7 +4,7 @@ function ParticleSystem() {
   }
 
   this.addParticle = function (x, y, amt) {
-    for (var i = 0; i < amt; i ++) {
+    for (var lala = 0; lala < amt; lala ++) {
       var p = new Particle();
 
       this.particles.push(p);
@@ -15,20 +15,20 @@ function ParticleSystem() {
   }
 
   this.dontTouch = function () {
-    for (var i = 0; i< this.particles.length; i++) {
-      var iP = this.particles[i];
+    for (var lala = 0; lala< this.particles.length; lala++) {
+      var lalaP = this.particles[lala];
 
-      for (var j = this.particles.length-1; j > i; j--) {
+      for (var haha = this.particles.length-1; haha > lala; haha--) {
 
-        var jP = this.particles[j];
-        var distance = iP.pos.dist(jP.pos);
-        if (distance < (iP.size + jP.size) * 0.55) { //too small meaning they are touching each other
-          var force = iP.pos.copy().sub(jP.pos);
+        var hahaP = this.particles[haha];
+        var distance = lalaP.pos.dist(hahaP.pos);
+        if (distance < (lalaP.size + hahaP.size) * 0.55) { //too small meaning they are touching each other
+          var force = lalaP.pos.copy().sub(hahaP.pos);
           var forceAmt = 0.005;
-          var fi = force.copy().mult(forceAmt); //calculating force they have against each other
-          var fj = force.copy().mult(-forceAmt);
-          iP.applyForce(fi);
-          jP.applyForce(fj);
+          var flala = force.copy().mult(forceAmt); //calculating force they have against each other
+          var fhaha = force.copy().mult(-forceAmt);
+          lalaP.applyForce(flala);
+          hahaP.applyForce(fhaha);
         }
       }
     }
@@ -37,12 +37,16 @@ function ParticleSystem() {
 
   this.draw = function (pixels) { //pixels is now myFunnyPixels. passed by in sketch.js
     var pd = pixelDensity();
-    for ( var i = 0; i < this.particles.length; i++) {
-      var p = this.particles[i];
-      var xi = Math.ceil(p.pos.x); //math cell so that p.pos.x is not a floating number
-      var yi = Math.ceil(p.pos.y);
-      var pixelIndex = ((width * pd) * (yi * pd) + (xi * pd)) * 4;
+    for ( var lala = 0; lala < this.particles.length; lala++) {
+      var p = this.particles[lala];
+      var xlala = Math.ceil(p.pos.x); //math cell so that p.pos.x is not a floating number
+      var ylala = Math.ceil(p.pos.y);
+
+      var pixelIndex = ((width * pd) * (ylala * pd) + (xlala * pd)) * 4;
       var color = pixels[pixelIndex];
+
+
+
       p.update( color );
       p.draw();
     }
