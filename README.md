@@ -176,11 +176,16 @@
   * Reading pixel information.
   * Particle + Image
 
-### Week 13
+### Week 13 -- Shooting the arrow
+  * Amit Pitaru / James Paterson
+    * [Pagan Poetry](http://www.insertsilence.com/)
+    * [Sonic Wire](http://sws.cc/)
+    * [Norman VR](https://normanvr.com/)
+    * [Norman VR - Instagram](https://www.instagram.com/explore/tags/normanvr/)
+  * Goro Fujita
+    * [Facebook / Oculus Quill](https://www.facebook.com/goro.fujita/)
 
-### Week 14 -- Shooting the arrow
-
-### Week 15 -- Final Project Presentation
+### Week 14 -- Final Project Presentation
 
 ## Students with Disabilities
 
