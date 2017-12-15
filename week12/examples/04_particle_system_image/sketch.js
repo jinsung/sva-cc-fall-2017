@@ -5,8 +5,8 @@ function preload() {
 }
 
 function setup() {
-  createCanvas( 500, 500 );
-  image(myImage, 0, 0);
+  createCanvas(500, 500);
+  image(myImage,0,0);
   loadPixels();
 
   noStroke();
@@ -16,9 +16,9 @@ function setup() {
 }
 
 function draw() {
-  background(0);
+  background(255,255,255);
   if (mouseIsPressed) {
-    particleSystem.addParticle(mouseX, mouseY, 10);
+    particleSystem.addParticle(mouseX, mouseY, 5);
   }
   particleSystem.draw();
 }
