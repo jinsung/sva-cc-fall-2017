@@ -41,7 +41,7 @@ this.setup = function (pixels) {
           this.particles.splice(i, 1);
         } else {
           var d = pixelDensity();
-          var pixelIndex = (parseInt(p.pos.x) + (parseInt(p.pos.y) * height) * d) * d * 4;
+          var pixelIndex = (parseInt(p.pos.x) + (parseInt(p.pos.y) * height) * d) * d * 4;//depends on size
           var m = [this.pixels[pixelIndex], this.pixels[pixelIndex+1], this.pixels[pixelIndex+2]];
           p.update(m);
           p.draw();

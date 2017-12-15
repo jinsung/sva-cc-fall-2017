@@ -1,7 +1,7 @@
 var particleSystem;
 
 function preload() {
-  myImage = loadImage("assets/cc.png");
+  myImage = loadImage("assets/rose.png");
 }
 
 function setup() {

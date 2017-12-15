@@ -4,8 +4,8 @@ function Particle() {
     this.vel = createVector(0, 0);
     this.acc = createVector(0, 0);
     this.age = 0;
-    this.size = 5;
-    this.lifeSpan = 10000; //new
+    this.size = 30;
+    this.lifeSpan = 100000; //new
     this.isDead = false; // new
     this.mass = Math.random()+ 0.1* 10.0; // calcualate variation
     this.damping = 0.98;
@@ -29,7 +29,7 @@ function Particle() {
     this.acc.mult(0);
     this.vel.mult(this.damping);
     this.color = color;
-    this.size = 3 + (color[0]/255) * 10.0; // different size of circle
+    this.size = 10 + (color[0]/255) * 10.0; // different size of circle
   }
   this.draw = function(index) {
     push();
