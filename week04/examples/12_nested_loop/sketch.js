@@ -1,5 +1,3 @@
-var wave = 0;
-
 function setup() {
   createCanvas(400, 400);
 }
@@ -7,9 +5,9 @@ function setup() {
 function draw() {
   background(200);
   var gap = 10;
-  fill(100);
   for (var y=0; y <= height; y = y+gap) {
     for (var x=0; x <= width; x = x+gap) {
+
       //var circleSize = gap/2;
       //var circleSize = random(gap/2);
       var circleSize = sin(x * 6.28 * wave) * gap/2;

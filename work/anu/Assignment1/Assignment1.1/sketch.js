@@ -20,7 +20,7 @@ function draw() {
   /*rectMode(CENTER);
   fill(myHue, 100, 100);
   rect(width/2, height/2, 10, 10);*/
-
+  push();
   var xPos = random(5)-5;
   var yPos = random(5)-5;
   var rectSize = 100 + random(5);
@@ -49,5 +49,5 @@ function draw() {
   rectX = rectX + xDiff * speed;
   rectY = rectY + yDiff * speed;
   rect(rectX, rectY, rectSize, rectSize);
-
+  pop();
 }
