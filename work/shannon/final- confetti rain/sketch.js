@@ -4,6 +4,7 @@ function setup(){
   createCanvas(windowWidth, windowHeight);
   colorMode(HSB);
   ps = new ParticleSystem();
+  textAlign(CENTER);
 };
 
 function draw(){
@@ -15,4 +16,8 @@ function draw(){
   if (mouseIsPressed){
     ps.addParticles(createVector(mouseX,mouseY),10);
   }
+
+  r = random(255);
+  fill(r, 100, 100);
+  text("click to see confetti rain", 0,20, width, height)
 };
