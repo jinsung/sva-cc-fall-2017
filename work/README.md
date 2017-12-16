@@ -17,7 +17,7 @@
 * Ji Hoon Kim
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/ji/week04_hw/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/ji/week09_hw/index.html)
-  * [Final](https://github.com/jinsung/sva-cc-fall-2017/tree/master/work/ji/week14_final/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/ji/week14_final/index.html)
 * Shannon Koh
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/shannon/homework/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/shannon/homework2/index.html)
