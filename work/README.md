@@ -28,7 +28,7 @@
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/yeseul/homework3/index.html)
 * Min Young Park
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Homework/index.html)
-  * [Final](https://github.com/jinsung/sva-cc-fall-2017/tree/master/work/Minyoung/final/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/final/index.html)
 * Anu Yavuukhulan
   * [Assignment 1.1](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment11/index.html)
   * [Assignment 1.2](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment12/index.html)
