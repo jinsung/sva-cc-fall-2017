@@ -30,7 +30,7 @@
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/yeseul/homework3/index.html)
 * Min Young Park
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Homework/index.html)
-  * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Homework2/index.html)
+  * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Homework2/index.html)
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Final/index.html)
 * Anu Yavuukhulan
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment11/index.html)
