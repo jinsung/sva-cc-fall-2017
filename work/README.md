@@ -14,6 +14,7 @@
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/grace/final/index.html)
 * Ji Soo Hong
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/jisoo/hw/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/jisoo/Final/index.html)
 * Ji Hoon Kim
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/ji/week04_hw/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/ji/week09_hw/index.html)
