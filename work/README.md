@@ -4,6 +4,7 @@
 * Sixin Chen
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Sixin_Chen/homework/1/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/Sixin_Chen/homework/2/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/Sixin_Chen/homework/3/index.html)
 * Woojin Chung
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/woojin/homework/index.html)
   * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/woojin/homework2/index.html)
