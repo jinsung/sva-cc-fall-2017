@@ -30,11 +30,10 @@
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Homework/index.html)
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/Minyoung/Final/index.html)
 * Anu Yavuukhulan
-  * [Assignment 1.1](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment11/index.html)
-  * [Assignment 1.2](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment12/index.html)
-  * [Assignment 1.2](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment2/index.html)
-  * [Final](https://github.com/jinsung/sva-cc-fall-2017/tree/master/work/anu/Assignment3/index.html)
+  * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment11/index.html)
+  * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment1/Assignment12/index.html)
+  * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/anu/Assignment3/index.html)
 * Yifei You
   * [Assignment 1](https://jinsung.github.io/sva-cc-fall-2017/work/Yifei_You/YifeiYou_assignment/index.html)
-  * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/Yifei_You/YifeiYou_Assignment2/index.html)
+  * [Assignment 2](https://jinsung.github.io/sva-cc-fall-2017/work/Yifei_You/YifeiYou_Assignment2/Assignment/index.html)
   * [Final](https://jinsung.github.io/sva-cc-fall-2017/work/Yifei_You/Yifei_Final/index.html)
